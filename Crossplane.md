@@ -17,6 +17,8 @@ helm install crossplane --namespace crossplane-system crossplane-stable/crosspla
 [방법1]
 ```
 curl -sL https://raw.githubusercontent.com/crossplane/crossplane/master/install.sh | sh
+sudo mv kubectl-crossplane /usr/bin
+kubectl crossplane --help
 ```
 
 [방법2]
