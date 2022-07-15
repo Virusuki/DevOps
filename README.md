@@ -10,6 +10,9 @@
 
   - [쿠버네티스 (Kubernetes, K8s)](https://github.com/Virusuki/Kubernetes)
 
+- ### Cloud-native 소프트웨어
+  - [Crossplane](https://github.com/Virusuki/DevOps/blob/main/Crossplane.md)
+
 - ### Cloud platform (클라우드 플랫폼)
   - [AWS] 작업 중...
   
