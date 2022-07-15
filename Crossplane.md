@@ -60,6 +60,15 @@ spec:
       name: aws-secret-creds
       key: creds
 ```
+- kubectl 파일 적용
+```
+kubectl -n crossplane-system apply -f provider-config.yaml
+```
+
+- 프로바이더 설정 확인
+```
+kubectl -n crossplane-system get provider
+```
 
 ### AWS Security Group 생성
 - securitygroup.yaml
