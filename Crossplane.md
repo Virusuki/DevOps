@@ -33,8 +33,10 @@ spec:
   package: crossplane/provider-aws:alpha
 ```
 
-- 아래는 설치된 패키지 확인 (aws provider 패키지)
+- 아래의 명령어는 설치된 패키지 확인 (aws provider 패키지)
+```
 kubectl get provider.pkg
+```
 
 ### Provider Config 설정
 - Secret 생성: AWS Access ID/Key pair를 저장하는 Secret 생성 : AWS 웹 콘솔에서 보안자격증명에서 확인 가능
