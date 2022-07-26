@@ -40,8 +40,11 @@ kubectl get provider.pkg
 
 ### Provider Config 설정
 - Secret 생성: AWS Access ID/Key pair를 저장하는 Secret 생성 : AWS 웹 콘솔에서 보안자격증명에서 확인 가능
-```
+
 echo "aws_access_key_id = 당신의아이디\naws_secret_access_key = 당신의키" > creds.conf
+```
+$ AWS_PROFILE=default && echo -e "[default]\naws_access_key_id = $(aws configure get aws_access_key_id --profile $AWS_PROFILE)\naws_secret_access_key = $(aws configure get aws_secret_access_key --profile $AWS_PROFILE)" > creds.conf
+
 kubectl create secret generic aws-secret-creds -n crossplane-system --from-file=creds=./creds.conf
 ```
 
