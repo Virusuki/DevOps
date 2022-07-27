@@ -30,3 +30,8 @@ spec:
   providerConfigRef:
     name: awsconfig
     
+    
+
+<img src=" " width="850px" height="680px" title="px(픽셀) 크기 설정" alt="Kubernetes Structure"></img><br/>
+
+    
