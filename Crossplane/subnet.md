@@ -1,3 +1,4 @@
+```
 apiVersion: ec2.aws.crossplane.io/v1beta1
 kind: Subnet
 metadata:
@@ -12,9 +13,11 @@ spec:
     mapPublicIPOnLaunch: true
   providerConfigRef:
     name: awsconfig
+```
 
 ---
 
+```
 apiVersion: ec2.aws.crossplane.io/v1beta1
 kind: Subnet
 metadata:
@@ -29,7 +32,7 @@ spec:
     mapPublicIPOnLaunch: true
   providerConfigRef:
     name: awsconfig
-    
+```    
     
 
 <img src=" " width="850px" height="680px" title="px(픽셀) 크기 설정" alt="Kubernetes Structure"></img><br/>
