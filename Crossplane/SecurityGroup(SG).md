@@ -1,3 +1,4 @@
+```
 apiVersion: ec2.aws.crossplane.io/v1beta1
 kind: SecurityGroup
 metadata:
@@ -29,3 +30,4 @@ spec:
       value: crossplane-test
   providerConfigRef:
     name: awsconfig  ## 사용할 provider config
+```
