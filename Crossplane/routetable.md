@@ -1,5 +1,9 @@
+# Crossplane provider를 이용한 routetable 생성
 
+### RouteTable 예제
+- routetable.yaml
 
+```
 apiVersion: ec2.aws.crossplane.io/v1beta1
 kind: RouteTable
 metadata:
@@ -20,3 +24,4 @@ spec:
       name: eks-crossplane-vpc-namuk1
   providerConfigRef:
     name: awsconfig
+```
