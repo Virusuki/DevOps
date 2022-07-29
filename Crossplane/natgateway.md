@@ -1,3 +1,7 @@
+
+
+
+```
 apiVersion: ec2.aws.crossplane.io/v1beta1
 kind: NATGateway
 metadata:
@@ -14,3 +18,4 @@ spec:
         value: eks-natgateway
   providerConfigRef:
     name: awsconfig
+```
