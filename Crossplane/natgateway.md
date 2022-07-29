@@ -1,4 +1,6 @@
 
+# Crossplane provider를 이용한 natgateway 생성 및 aws 웹 콘솔 확인
+### natgateway 예제
 
 
 ```
