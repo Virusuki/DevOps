@@ -5,6 +5,14 @@
 - 그 제공된 Cluster에 crossplane operator를 설치해서 제공하며, kubectl과 kubectl crossplane을 사용하는 형태이다.
 - AWS 클라우드 예) AWS 사용자는 aws provider package를 Crossplane이 설치된 K8S 클러스터에 설치 후, AWS Access Credential 정보를 갖는 config를 생성 후, 해당 config를 가지고 CR로 AWS resource를 생성/관리하게 된다.
 
+### helm 설치
+```
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
+helm -h
+```
+
 ### Crossplane Operator 설치
 ```
 kubectl create namespace crossplane-system
