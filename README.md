@@ -7,6 +7,10 @@
   - [DevOps 엔지니어의 역할](https://github.com/Virusuki/DevOps/blob/main/DevOps_Concept/DevOps%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EC%9D%98%20%EC%97%AD%ED%95%A0.md)
 
 - ### 컨테이너 오케스트레이션 (Container Orchestration)
+  - [AWS (CLI / 보안자격증명 환경설정)] ( )
+  
+
+- ### 컨테이너 오케스트레이션 (Container Orchestration)
 
   - [쿠버네티스 (Kubernetes, K8s)](https://github.com/Virusuki/Kubernetes)
 
