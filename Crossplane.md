@@ -26,7 +26,7 @@ helm -h
 kubectl create namespace crossplane-system
 helm repo add crossplane-stable https://charts.crossplane.io/stable
 helm repo update 
-helm install crossplane --namespace crossplane-system crossplane-stable/crossplane --version 1.3.0
+helm install crossplane --namespace crossplane-system crossplane-stable/crossplane --version 1.9.0
 ```
 
 ### Crossplane CLI 설치
