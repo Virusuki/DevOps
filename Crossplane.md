@@ -5,6 +5,17 @@
 - 그 제공된 Cluster에 crossplane operator를 설치해서 제공하며, kubectl과 kubectl crossplane을 사용하는 형태이다.
 - AWS 클라우드 예) AWS 사용자는 aws provider package를 Crossplane이 설치된 K8S 클러스터에 설치 후, AWS Access Credential 정보를 갖는 config를 생성 후, 해당 config를 가지고 CR로 AWS resource를 생성/관리하게 된다.
 
+### AKS CLI 설치
+```
+apt update
+apt install unzip build-essential curl
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
+```
+
 ### AWS EKS 설정 및 확인
 - EKS 클러스터 연결 (리눅스 터미널에서 확인)
 ```
