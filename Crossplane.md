@@ -13,6 +13,13 @@ apt install unzip build-essential curl
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
+```
+
+- ~/.aws/config 파일 셋업
+```
+[default]
+aws_access_key_id=keyID
+aws_secret_access_key=secretID
 
 ```
 
