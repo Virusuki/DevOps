@@ -64,7 +64,7 @@ kind: Provider
 metadata:
   name: aws-provider
 spec:
-  package: crossplane/provider-aws:alpha
+  package: crossplane/provider-aws:v0.31.0
 ```
 
 - 아래의 명령어는 설치된 패키지 확인 (aws provider 패키지)
